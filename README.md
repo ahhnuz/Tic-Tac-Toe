@@ -20,8 +20,8 @@ Tic-Tac-Toe is a timeless game of strategy. Two players take turns marking space
 1.  **Game Logic:**
     * The `board[3][3]` array stores the current state of the game.
     * `currentplayer` keeps track of the current player's turn.
-    * `checkpin()` determines if a player has won.
-    * `checkpraw()` checks if the game is a draw.
+    * `checkwin()` determines if a player has won.
+    * `checkdraw()` checks if the game is a draw.
 
 2.  **Data Persistence:**
     * `loadgamedata()` loads game statistics from `tic_tac_toe_data.txt` when the program starts.
