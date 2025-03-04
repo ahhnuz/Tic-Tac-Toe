@@ -9,8 +9,8 @@ Tic-Tac-Toe is a timeless game of strategy. Two players take turns marking space
 ## Features
 
 * **Persistent Game Data:**
-    * Your win counts and the number of games played are stored in `tic_tac_toe_data.txt`, so you can track your progress across multiple sessions.
-    * The final state of each game board is recorded in `tic_tac_toe_board.txt`, providing a history of your games.
+    * Your win counts are stored in `tic_tac_toe_data.txt`, so you can track your progress across multiple sessions.
+    * The final state of each game board is recorded in `tic_tac_toe_board.txt`, providing a history of your recent game.
 * **Simple C Implementation:** The game is built using a straightforward 2D character array (`board[3][3]`) for the game board.
 * **Win and Draw Detection:** The program efficiently checks for winning and draw conditions.
 * **File I/O:** Utilizes `fopen()`, `fscanf()`, `fprintf()`, and `fclose()` for robust file handling.
